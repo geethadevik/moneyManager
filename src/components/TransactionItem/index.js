@@ -1,4 +1,3 @@
-// Write your code here
 import './index.css'
 
 const TransactionItem = props => {
@@ -19,6 +18,7 @@ const TransactionItem = props => {
           className="delete-button"
           type="button"
           onClick={onDeleteTransaction}
+          data-testid="delete"
         >
           <img
             className="delete-img"
